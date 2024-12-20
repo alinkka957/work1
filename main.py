@@ -5,3 +5,7 @@ class Calculator:
         return first - second
     def multiply(self, first, second):
         return first * second
+    def divide(self, first, second):
+        if second == 0:
+            return "Error"
+        return first / second
